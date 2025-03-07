@@ -3,7 +3,7 @@ import me from '../images/me.png'
 
 export default function About() {
   return (
-    <div id='about' className='text-white sm:h-[100vh] grid place-items-center grid-cols-4 sm:grid-rows-8 place-items-center pr-5 sm:pr-20 auto-rows-min'>
+    <div id='about' className='text-white sm:h-[100vh] grid place-items-center grid-cols-4 sm:grid-rows-8 place-items-center pr-5 sm:pr-20 auto-rows-min bg-black'>
         <div className='col-span-4 text-5xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>About Me</div>
         <div className=' sm:col-span-2 sm:row-span-6 sm:h-5/6 sm:w-4/6 rounded-3xl hidden lg:grid border-20  place-items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
             <img src={me} className='w-4/6 h-5/6 rounded-b-full filter grayscale' alt="" />

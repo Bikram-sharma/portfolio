@@ -9,7 +9,7 @@ import Contact from './components/contact'
 function App() {
 
   return (
-    <div className='bg-black transition-transform duration-500 overflow-auto'>
+    <div className='transition-transform duration-500 overflow-y-scroll'>
       <Navbar/>
       <Home/>
       <About/>

@@ -16,7 +16,7 @@ const navhidder = ()=>{
 
   return (
     <>
-    <div className='font-sans text-white flex justify-between items-center mx-[5%] sm:mx-[10%] h-[14vh] text-lg'>
+    <div className='font-sans text-white flex justify-between items-center mx-[5%] sm:mx-[10%] h-[14vh] text-lg z-10'>
       <div id='logo' className='text-5xl  flex items-center justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>B</div>
       <div className='w-1/2 h-4/6 align-middle flex items-center hidden sm:flex'>
         <ul className='flex justify-between w-full'>

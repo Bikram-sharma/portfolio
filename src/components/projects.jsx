@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div id='project' className=' mt-10 sm:m-0 text-white sm:h-[100vh] w-screen sm:grid sm:grid-cols-3 sm:grid-rows-5 place-items-center sm:px-20 gap-6 px-15 sm:p-1'>
+    <div id='project' className=' mt-10 sm:m-0 text-white sm:h-[100vh] w-screen sm:grid sm:grid-cols-3 sm:grid-rows-5 place-items-center sm:px-20 gap-6 px-15 sm:p-1 bg-black'>
         <div className='text-5xl col-span-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>Projects</div>
 
         <a href="https://login-aut-system.netlify.app/signup" className='sm:col-span-1 row-span-2 w-full h-full'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../index.css'
 
 export default function Navbar() {
@@ -13,6 +13,18 @@ const navhidder = ()=>{
   document.querySelector('.smallnav').classList.add('hidden')
   document.querySelector('.nav').classList.remove('hidden')
 }
+
+useEffect(()=>{
+  const nav = document.querySelector('.smallnav');
+
+  const hideNav = (e)=>{
+    const node = e.target?.nodeName;
+    node === 'LI' ? navhidder: ""}
+
+  document.addEventListener('click',hideNav)
+
+  
+},[])
 
   return (
     <>
@@ -40,7 +52,7 @@ const navhidder = ()=>{
 
      
     </div>
-    <div className='smallnav  hidden sm:hidden  h-screen w-50vw absolute top-1/2 left-1/2 right-0 -translate-y-1/2 bg-purple-800/80 z-10'>
+    <div className='smallnav hidden sm:hidden  h-screen w-50vw absolute top-1/2 left-1/2 right-0 -translate-y-1/2 bg-purple-800/80 z-10'>
       <div className='h-25 flex justify-end items-center pr-[10%] text-white'>
         <span onClick={navhidder}>
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-10">

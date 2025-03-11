@@ -3,10 +3,18 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div id='project' className=' mt-10 sm:m-0 text-white sm:h-[100vh] w-screen sm:grid sm:grid-cols-3 sm:grid-rows-5 place-items-center sm:px-20 gap-6 px-15 sm:p-1 bg-black'>
+    <div id='project' className=' pt-10 sm:m-0 text-white h-[100vh] w-screen sm:grid sm:grid-cols-3 sm:grid-rows-5 place-items-center sm:px-20 gap-6 px-15 sm:p-1 bg-black'>
         <div className='text-5xl col-span-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>Projects</div>
+          <div className='h-[80vh] w-screen grid grid-cols-2 grid-rows-3 gap-6 sm:hidden p-5 border-box'>
+            <a href="https://login-aut-system.netlify.app/signup" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/auth.png)] bg-cover bg-center'></a>
+            <a href="https://shoptheshoe.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/theme.png)] bg-cover bg-center'></a>
+            <a href="https://thetodolists.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/todo.png)] bg-cover bg-center'></a>
+            <a href="https://random-quote-for-you.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/quote.png)] bg-cover bg-center'></a>
+            <a href="https://muzic-drum.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/drum.png)] bg-cover bg-center'></a>
+            <a href="https://dev-calcy.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/cal.png)] bg-cover bg-center'></a>
 
-        <a href="https://login-aut-system.netlify.app/signup" className='sm:col-span-1 row-span-2 w-full h-full'>
+          </div>
+        <a href="https://login-aut-system.netlify.app/signup" className='sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>
         <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/auth.png)] bg-cover bg-center'>
         <div className='hover:bg-black/50  text-transparent hover:text-white w-full h-full row-start-2 grid place-items-center text-center px-15'>
         A secure authentication system built with Next.js,
@@ -16,7 +24,7 @@ export default function Projects() {
         </div>
         </a>
 
-        <a href="https://shoptheshoe.netlify.app/" className='col-span-1 row-span-2 w-full h-full'>
+        <a href="https://shoptheshoe.netlify.app/" className='col-span-1 row-span-2 w-full h-full hidden sm:grid'>
         <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/theme.png)] bg-cover bg-center'>
         <div className='hover:bg-black/50 text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15'>
         Implemented a React.js and Tailwind CSS-based theme-switching system for an e-commerce platform, 
@@ -25,7 +33,7 @@ export default function Projects() {
         </div>
         </a>
 
-        <a href="https://thetodolists.netlify.app/" className='col-span-2 sm:col-span-1 row-span-2 w-full h-full'>
+        <a href="https://thetodolists.netlify.app/" className='col-span-2 sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>
         <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/todo.png)] bg-cover bg-center'>
         <div className='hover:bg-black/50 text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15'>
         A simple and interactive To-Do List built with React.js, allowing users to add, edit, delete, and mark tasks as complete. 
@@ -33,7 +41,7 @@ export default function Projects() {
         </div>
         </a>
 
-        <a href="https://random-quote-for-you.netlify.app/" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full'>
+        <a href="https://random-quote-for-you.netlify.app/" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>
         <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/quote.png)] bg-cover bg-center'>
         <div className='hover:bg-black/50 text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15'>
         A React.js application that displays randomly generated quotes from a curated collection.
@@ -42,7 +50,7 @@ export default function Projects() {
         </div>
         </a>
 
-        <a href="https://muzic-drum.netlify.app/" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full'>
+        <a href="https://muzic-drum.netlify.app/" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>
         <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/drum.png)] bg-cover bg-center'>
         <div className='hover:bg-black/50 text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15'>
         A React.js-based interactive drum kit that allows users to play sounds by clicking on virtual drums or pressing corresponding keyboard keys.
@@ -51,7 +59,7 @@ export default function Projects() {
         </div>
         </a>
 
-        <a href="https://dev-calcy.netlify.app/" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full'>
+        <a href="https://dev-calcy.netlify.app/" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>
         <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/cal.png)] bg-cover bg-center'>
         <div className='hover:bg-black/50 text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15'>
         A responsive calculator built with HTML, CSS, and JavaScript that supports basic arithmetic operations.

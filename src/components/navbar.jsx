@@ -14,17 +14,7 @@ const navhidder = ()=>{
   document.querySelector('.nav').classList.remove('hidden')
 }
 
-useEffect(()=>{
-  const nav = document.querySelector('.smallnav');
 
-  const hideNav = (e)=>{
-    const node = e.target?.nodeName;
-    node === 'LI' ? navhidder: ""}
-
-  document.addEventListener('click',hideNav)
-
-  
-},[])
 
   return (
     <>

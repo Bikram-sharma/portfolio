@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div id='project' className=' pt-10 sm:m-0 text-white h-[100vh] w-screen sm:grid sm:grid-cols-3 sm:grid-rows-5 place-items-center sm:px-20 gap-6 px-15 sm:p-1 bg-black'>
         <div className='text-5xl col-span-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>Projects</div>
-          <div className='h-[80vh] w-screen grid grid-cols-2 grid-rows-3 gap-6 sm:hidden p-5 border-box'>
+          <div className='h-[80vh] w-[100vw] grid grid-cols-2 grid-rows-3 gap-6 sm:hidden p-5 border-box'>
             <a href="https://login-aut-system.netlify.app/signup" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/auth.png)] bg-cover bg-center'></a>
             <a href="https://shoptheshoe.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/theme.png)] bg-cover bg-center'></a>
             <a href="https://thetodolists.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/todo.png)] bg-cover bg-center'></a>

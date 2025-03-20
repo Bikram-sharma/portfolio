@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+import $ from 'jquery'
+import 'jquery.ripples'
 import Navbar from './components/navbar'
 import Home from './components/home'
 import About from './components/about'
@@ -13,6 +15,13 @@ function App() {
   
 
   useEffect(()=>{
+  
+    $('body').ripples({
+      resulation: 512,
+      dropRadious:40,
+      perturbance:0.04
+    })
+
 
     const loadhandler = ()=> setLoading(false)
     
@@ -22,7 +31,9 @@ function App() {
       window.addEventListener('load', loadhandler )
     }
 
-    return ()=>window.removeEventListener('load', loadhandler)
+    return ()=>{
+      $('body').ripples('destroy')
+      window.removeEventListener('load', loadhandler)}
   },[])
 
   return (

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moon+Dance&family=Roboto:wght@100;300;400;500;700;900&family=Sevillana&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Moon+Dance&family=Pacifico&family=Playwrite+IN:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap');
 
 #logo{
     font-family: "Dancing Script", cursive;
@@ -24,4 +24,19 @@
    display: grid;
    place-content: center;
   }
+
+ 
+    
+.sub-text {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size:23px;
+}
+
+
+  
+
+  
 

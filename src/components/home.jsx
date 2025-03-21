@@ -12,7 +12,7 @@ export default function Home() {
             <p className='w-5/6 text-center'><span className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>I am Bikram Sharma,</span> a Front-End Developer bringing designs to life with code. </p>
         </div>
         <div className='col-span-4 text-center'>
-            <p>"A passionate Front-End Developer crafting dynamic, responsive, and user-friendly web experiences with modern technologies."</p>
+            <p className='sub-text text-white/70'>"A passionate Front-End Developer crafting dynamic, responsive, and user-friendly web experiences with modern technologies."</p>
         </div>
 
         <div className=' col-span-2 h-1/2 w-5/6 sm:col-span-1 sm:col-start-2 sm:h-4/6 sm:w-4/6 lg:w-1/2 px-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full grid place-items-center transition-transform duration-300 hover:scale-103'>

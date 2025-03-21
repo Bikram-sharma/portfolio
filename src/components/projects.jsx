@@ -59,11 +59,12 @@ export default function Projects() {
         </div>
         </a>
 
-        <a href="https://dev-calcy.netlify.app/" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>
-        <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/cal.png)] bg-cover bg-center'>
+        <a href="https://booktheticket.netlify.app" className='col-span-3 sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>
+        <div className='mt-4 sm:m-0 w-full h-full transition-transform duration-300 border hover:scale-103 hover:border-indigo-500 rounded-lg  border-4 bg-[url(./images/ticketbooking.png)] bg-cover bg-center'>
         <div className='hover:bg-black/50 text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15'>
-        A responsive calculator built with HTML, CSS, and JavaScript that supports basic arithmetic operations.
-        Features a clean, intuitive UI and smooth user experience with input validation.
+        The Ticket Booking App is a React.js and Express.js-based platform with a clean UI,
+         real-time ticket generation, validation, instant notifications, smooth navigation,
+          and a download feature for easy ticket saving.
         </div>
         </div>
         </a>

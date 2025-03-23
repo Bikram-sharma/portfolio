@@ -1,6 +1,36 @@
 import React from 'react'
 
+
 export default function Contact() {
+
+    const [result, setResult] = React.useState("");
+
+    const onSubmit = async (event) => {
+      event.preventDefault();
+      setResult("Sending....");
+      const formData = new FormData(event.target);
+
+      const access_key = import.meta.env.VITE_ACCESS_KEY;
+  
+      formData.append("access_key", access_key);
+  
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+  
+      const data = await response.json();
+  
+      if (data.success) {
+        setResult("Message Submitted Successfully");
+        event.target.reset();
+      } else {
+        console.log("Error", data);
+        setResult(data.message);
+      }
+    };
+
+
   return (
     <div id='contact' className='text-white sm:h-[100vh] p-10 sm:p-20 sm:grid grid-cols-2 grid-rows-6 place-items-center gap-4'>
 
@@ -36,26 +66,26 @@ export default function Contact() {
         </div>
 
 
-        <div className='w-full h-full sm:grid col-start-2 row-start-2 row-span-4 hidden  grid-rows-5 gap-1'>
+        <form onSubmit={onSubmit} className='w-full h-full sm:grid col-start-2 row-start-2 row-span-4 hidden  grid-rows-5 gap-1'>
             <div className='w-full h-full text-white'>
                 <label htmlFor="name">Your Name</label>
-                <input type="text"  className='w-full h-10 border mt-2 rounded-lg bg-gray-900 px-2'/>
+                <input type="text" name='name'  className='w-full h-10 border mt-2 rounded-lg bg-gray-900 px-2' required/>
             </div>
 
             <div className='w-full h-full'>
             <label htmlFor="email">Your Email</label>
-            <input type="email"  className='w-full h-10 border mt-2 rounded-lg bg-gray-900 px-2'/>
+            <input type="email" name='email' className='w-full h-10 border mt-2 rounded-lg bg-gray-900 px-2' required/>
             </div>
 
             <div className='row-span-2 w-full h-full'>
             <label htmlFor="email">Write your message here</label>
-            <textarea type="email"  className='w-full h-10 border mt-2 h-30 rounded-lg bg-gray-900 px-2'/>
+            <textarea name='message'   className='w-full h-10 border mt-2 h-30 rounded-lg bg-gray-900 px-2' required/>
             </div>
             <div className='w-full h-full flex items-center'>
-                <button className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full h-4/6 px-5 '>Submit now</button>
+                <button type='submit' className='bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full h-4/6 px-5 '>{result? result : 'Submit now'}</button>
             </div>
 
-        </div>
+        </form>
 
 
         <div className='row-start-6 col-span-2  w-full h-full'>

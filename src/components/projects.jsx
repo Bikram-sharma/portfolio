@@ -11,7 +11,7 @@ export default function Projects() {
             <a href="https://thetodolists.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/todo.png)] bg-cover bg-center'></a>
             <a href="https://random-quote-for-you.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/quote.png)] bg-cover bg-center'></a>
             <a href="https://muzic-drum.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/drum.png)] bg-cover bg-center'></a>
-            <a href="https://dev-calcy.netlify.app/" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/cal.png)] bg-cover bg-center'></a>
+            <a href="https://booktheticket.netlify.app" className='bg-white/10 col-span-1 row-span-1 rounded-lg border-2 border-white bg-[url(./images/ticketbooking.png)] bg-cover bg-center'></a>
 
           </div>
         <a href="https://login-aut-system.netlify.app/signup" className='sm:col-span-1 row-span-2 w-full h-full hidden sm:grid'>

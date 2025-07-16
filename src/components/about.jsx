@@ -1,43 +1,53 @@
-import React from 'react'
-import me from '../images/me.png'
-import Slide from './slider'
-
+import React from "react";
 
 export default function About() {
   return (
-    <div id='about' className='text-white sm:h-[100vh] grid place-items-center grid-cols-4 sm:grid-rows-8 place-items-center pr-5 sm:pr-20 auto-rows-min bg-black'>
-        <div className='col-span-4 text-5xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent'>About Me</div>
-        <div className=' sm:col-span-2 sm:row-span-5 sm:row-start-2 sm:h-5/6 sm:w-4/6 rounded-3xl hidden lg:grid border-20  place-items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>
-            <img src={me} className='w-4/6 h-5/6 rounded-b-full filter grayscale' alt="profile" />
-        </div>
+    <div
+      id="about"
+      className="text-white sm:h-[130vh] grid grid-cols-3 grid-rows-6 place-items-center bg-black px-50"
+    >
+      <p className="col-span-3 text-5xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+        About Me
+      </p>
 
-        <div className='col-span-4 sm:col-span-2 sm:row-span-2 sm:row-start-2 p-5 sm:p-0 sm:col-start-3 text-justify'>
-            <p> I am a dedicated, self-taught Front-End Developer transitioning from a four-year career as a Land Surveyor. Passionate
-                about building responsive, scalable, and user-friendly web applications. Proficient in HTML, CSS, JavaScript, React, and
-                Next.js, I thrive in dynamic, innovative environments where I can apply my technical expertise and analytical mindset. I am
-                seeking a Front-End Developer role to contribute creative solutions and enhance user experiences.
-            </p>
-        </div>
+      <div className="row-span-3 col-span-3 w-full h-[60vh] bg-gradient-to-t from-[#FC00A3] via-[#BE02D6] to-[#9101FC] grid grid-cols-5 place-items-center pr-10 rounded">
+        <div className="col-span-2 h-80 w-70 hexagon bg-[url(./images/me2.png)] bg-cover"></div>
+        <p className="col-span-3 border p-5 rounded text-xl text-justify">
+          I am a dedicated Full-Stack Developer transitioning from a four-year
+          career as a Land Surveyor. Passionate about building responsive,
+          scalable, and user-friendly applications, I specialize in both
+          front-end and back-end development. Proficient in HTML, CSS,
+          JavaScript, React, Next.js, Node.js, Express, Python, PostgreSQL, and
+          MongoDB, I thrive in dynamic, innovative environments where I can
+          leverage my technical expertise and problem-solving mindset. My goal
+          is to contribute end-to-end solutions and help deliver exceptional
+          user experiences as part of a forward-thinking development team.
+        </p>
+      </div>
 
-       <div className='col-span-4 sm:col-span-2 sm:row-span-2 sm:row-start-4 sm:col-start-3 text-justify w-full h-full grid grid-cols-4 place-items-center sm:grid-cols-4 grid-rows-4 sm:place-items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 gap-[1px]'>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># HTML</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># CSS</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># SASS</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># Tailwind</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># Bootstrap</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># JavaScript</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># React.js</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># Next.js</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># Git</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># GitHub</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># Netlify</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># Chrome DevTools</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># AutoCAD</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># ArcGIS</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># LisCAD</span>
-            <span className='bg-black/60 w-[100%] h-[100%] grid place-items-center transition-all duration-300 ease-in-out transform hover:translate-x-1 hover:translate-y-1 text-xs sm:text-sm'># Microsoft Office</span>
-       </div>
-        <div className='col-span-4 row-start-7 w-[90vw]'> <Slide/></div>
+      <div className=" col-span-3 row-span-2 h-full w-full grid grid-cols-9 place-items-center gap-5">
+        <p className="col-span-9 text-5xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+          Skills
+        </p>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/html.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/css.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/sass.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/tailwind.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/bootstrap.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/js.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/react.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/next.jpeg)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/git.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/node.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/express.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/python.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/postgres.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/mongodb.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/docker.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/autocad.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/arcgis.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+        <div className="border-2 border-gray-400 w-full h-full bg-[url(./images/logos/liscad.png)] bg-center bg-[length:60px_60px] bg-no-repeat"></div>
+      </div>
     </div>
-  )
+  );
 }

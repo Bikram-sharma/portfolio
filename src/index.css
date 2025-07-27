@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(./images/portfolio_bg.jpeg);
+  background-image: url("/images/portfolio_bg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }

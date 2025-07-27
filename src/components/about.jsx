@@ -54,7 +54,7 @@ export default function About() {
             <div
               key={index}
               className="border-2 border-gray-400 w-full aspect-square max-w-[100px] sm:max-w-[120px] bg-[length:60px_60px] bg-no-repeat bg-center"
-              style={{ backgroundImage: `url(src/images/logos/${logo})` }}
+              style={{ backgroundImage: `url(/images/logos/${logo})` }}
             ></div>
           ))}
         </div>

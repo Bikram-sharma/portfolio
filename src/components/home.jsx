@@ -12,13 +12,13 @@ export default function Home() {
           <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent">
             I am Bikram Sharma,
           </span>{" "}
-          a Front-End Developer bringing designs to life with code.{" "}
+          a Full-Stack Developer bringing ideas to life with code.
         </p>
       </div>
       <div className="col-span-4 text-center">
         <p className="sub-text text-white/70">
-          "A passionate Front-End Developer crafting dynamic, responsive, and
-          user-friendly web experiences with modern technologies."
+          "A passionate Full-Stack Developer crafting scalable, responsive, and
+          user-friendly web applications with modern technologies."
         </p>
       </div>
 

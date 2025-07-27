@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
   return (
     <div className="text-white h-[86vh] sm:h[100vh] grid place-items-center grid-cols-4 grid-rows-8 auto-rows-min">
-      <div className="col-span-4 row-span-3 place-items-center overflow-hidden w-50 h-50 rounded-full bg-[url(./images/me.png)] bg-[center_45%] bg-cover bg-opacity-50">
+      <div className="col-span-4 row-span-3 place-items-center overflow-hidden w-50 h-50 rounded-full bg-[url(/images/me.png)] bg-[center_45%] bg-cover bg-opacity-50">
         <div className="w-full h-full bg-black/20"></div>
       </div>
 

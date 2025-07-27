@@ -31,7 +31,7 @@ export default function About() {
       </p>
 
       <div className="w-full border grid grid-cols-1 md:grid-cols-5 gap-4 place-items-center p-4 md:p-6 rounded-lg mt-5">
-        <div className="col-span-1 md:col-span-2 h-48 sm:h-64 md:h-80 w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] hexagon bg-[url(./images/me2.png)] bg-cover bg-[center_5%] filter grayscale"></div>
+        <div className="col-span-1 md:col-span-2 h-48 sm:h-64 md:h-80 w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] hexagon bg-[url(/images/me2.png)] bg-cover bg-[center_5%] filter grayscale"></div>
         <p className="col-span-1 md:col-span-3 p-4 sm:p-6 rounded-lg text-base sm:text-lg md:text-xl text-justify">
           I am a dedicated Full-Stack Developer transitioning from a four-year
           career as a Land Surveyor. Passionate about building responsive,

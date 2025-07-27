@@ -14,7 +14,7 @@ export default function Projects() {
           href="https://login-aut-system.netlify.app/signup"
           className="sm:col-span-1 sm:row-span-2 w-full h-[40vh] sm:grid"
         >
-          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300  hover:scale-103  border-4 bg-[url(./images/auth.png)]  filter grayscale bg-cover bg-center">
+          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300  hover:scale-103  border-4 bg-[url(/images/auth.png)]  filter grayscale bg-cover bg-center">
             <div className="hover:bg-black  text-transparent hover:text-white w-full h-full row-start-2 grid place-items-center text-center px-15">
               A secure authentication system built with Next.js, featuring JWT
               authentication and role-based access control. User data is
@@ -28,7 +28,7 @@ export default function Projects() {
           href="https://shoptheshoe.netlify.app/"
           className="sm:col-span-1 sm:row-span-2 w-full  h-[40vh] sm:grid"
         >
-          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300  hover:scale-103  border-4 bg-[url(./images/theme.png)] filter grayscale bg-cover bg-center ">
+          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300  hover:scale-103  border-4 bg-[url(/images/theme.png)] filter grayscale bg-cover bg-center ">
             <div className="hover:bg-black text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15">
               Implemented a React.js and Tailwind CSS-based theme-switching
               system for an e-commerce platform, allowing seamless transitions
@@ -41,7 +41,7 @@ export default function Projects() {
           href="https://thetodolists.netlify.app/"
           className="sm:col-span-1 sm:row-span-2 w-full  h-[40vh] sm:grid"
         >
-          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103   border-4 bg-[url(./images/todo.png)] filter grayscale bg-cover bg-center">
+          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103   border-4 bg-[url(/images/todo.png)] filter grayscale bg-cover bg-center">
             <div className="hover:bg-black text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15">
               A simple and interactive To-Do List built with React.js, allowing
               users to add, edit, delete, and mark tasks as complete.
@@ -53,7 +53,7 @@ export default function Projects() {
           href="https://random-quote-for-you.netlify.app/"
           className="sm:col-span-1 sm:row-span-2 w-full  h-[40vh] sm:grid"
         >
-          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103 border-4 bg-[url(./images/quote.png)] filter grayscale bg-cover bg-center">
+          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103 border-4 bg-[url(/images/quote.png)] filter grayscale bg-cover bg-center">
             <div className="hover:bg-black text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15">
               A React.js application that displays randomly generated quotes
               from a curated collection. Features include a "New Quote" button,
@@ -66,7 +66,7 @@ export default function Projects() {
           href="https://muzic-drum.netlify.app/"
           className=" sm:col-span-1 sm:row-span-2 w-full  h-[40vh] sm:grid"
         >
-          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103  border-4 bg-[url(./images/drum.png)] filter grayscale bg-cover bg-center">
+          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103  border-4 bg-[url(/images/drum.png)] filter grayscale bg-cover bg-center">
             <div className="hover:bg-black text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15">
               A React.js-based interactive drum kit that allows users to play
               sounds by clicking on virtual drums or pressing corresponding
@@ -81,7 +81,7 @@ export default function Projects() {
           href="https://booktheticket.netlify.app"
           className=" sm:col-span-1 sm:row-span-2 w-full h-[40vh] sm:grid"
         >
-          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103  border-4 bg-[url(./images/ticketbooking.png)] filter grayscale bg-cover bg-center">
+          <div className="mt-4 sm:m-0 w-full h-full transition-transform duration-300 hover:scale-103  border-4 bg-[url(/images/ticketbooking.png)] filter grayscale bg-cover bg-center">
             <div className="hover:bg-black text-transparent hover:text-white w-full h-full grid place-items-center text-center px-15">
               The Ticket Booking App is a React.js and Express.js-based platform
               with a clean UI, real-time ticket generation, validation, instant
